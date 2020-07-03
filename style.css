@@ -1,0 +1,31 @@
+body{
+    margin:0 auto; 
+    padding:0; 
+    width: 70%;
+}
+h1 {
+    font-family:sans-serif;
+    font-size: 32px;
+}
+h2 {
+    font-family:sans-serif;
+}
+table {
+    border: 1px solid grey;
+}
+td {
+    border: 1px solid grey;
+}
+th {
+    border: 1px solid grey;
+}
+
+.sign {
+    float: right; /* Выравнивание по правому краю */
+    padding: 7px; /* Поля внутри блока */
+    margin: 10px 0 5px 5px; /* Отступы вокруг */
+}
+.sign figcaption {
+    margin: 0 auto 5px; /* Отступы вокруг абзаца */
+    font-style: italic;
+}
